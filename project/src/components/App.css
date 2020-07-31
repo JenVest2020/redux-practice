@@ -14,11 +14,11 @@
 
 .input{
   width: 50%;
-  border: 5px ridge rgb(7, 114, 3);
+  border: 5px ridge red;
 }
 
 .btn{
-  background-color: rgba(7, 114, 3, 0.5);
+  background-image:linear-gradient(red,yellow,red);
   border: 2px solid rgb(7, 114, 3);
   font-weight: bold;
 }

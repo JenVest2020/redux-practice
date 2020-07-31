@@ -33,6 +33,7 @@ const PlayersForm = (props) => {
 
             <label htmlFor='age'>Age</label>
             <input
+                style={{ border: '5px ridge yellow' }}
                 type='text'
                 name='age'
                 label='age'
