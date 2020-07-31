@@ -32,7 +32,7 @@ export const Reducer = (state = initialState, action) => {
             return {
                 ...state,
                 isPosting: true,
-                players: { ...state.players }
+                players: [...state.players]
             }
         case POST_SUCCESS:
             return {
