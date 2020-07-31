@@ -20,7 +20,7 @@ const PlayersForm = (props) => {
     }
 
     return (
-        <form id='playerForm'>
+        <form id='playerForm' className='form'>
             <label htmlFor='name'>Name</label>
             <input
                 type='text'
@@ -51,7 +51,7 @@ const PlayersForm = (props) => {
                 onChange={inputHandler}
                 className='input' />
 
-            <button onClick={submitHandler}>Submit your player</button>
+            <button className='btn' onClick={submitHandler}>Submit your player</button>
         </form>
     )
 };

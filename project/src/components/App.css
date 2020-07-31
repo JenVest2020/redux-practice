@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+
+.form{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.input{
+  width: 50%;
+  border: 5px ridge rgb(7, 114, 3);
+}
+
+.btn{
+  background-color: rgba(7, 114, 3, 0.5);
+  border: 2px solid rgb(7, 114, 3);
+  font-weight: bold;
+}
