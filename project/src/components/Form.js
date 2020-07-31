@@ -10,7 +10,7 @@ const PlayersForm = (props) => {
     })
     const inputHandler = e => {
         setPlayer({
-            [e.target.name]: e.target.value
+            ...player, [e.target.name]: e.target.value
         })
     }
 

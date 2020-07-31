@@ -15,9 +15,9 @@ const PlayersList = (props) => {
     return (
         <div>
             {props.players.map(player => {
-                return <PlayersCard
+                return (<PlayersCard
                     key={player.id}
-                    player={player} />
+                    player={player} />)
             })}
         </div>
     )
