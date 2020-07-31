@@ -15,7 +15,11 @@ const PlayersList = (props) => {
     return (
         <div>
             {props.players.map(player => {
-                return <PlayersCard key={player.name} player={player} />
+                return <PlayersCard
+                    key={player.id}
+                    player={player.name}
+                    age={player.age}
+                    height={player.height} />
             })}
         </div>
     )

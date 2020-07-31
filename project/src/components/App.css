@@ -19,6 +19,6 @@
 
 .btn{
   background-image:linear-gradient(red,yellow,red);
-  border: 2px solid rgb(7, 114, 3);
+  border: 2px solid red;
   font-weight: bold;
 }
